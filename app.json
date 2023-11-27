@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "proyecto-frontend-movil",
+    "slug": "proyecto-frontend-movil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/img/ProyectoMovilLogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/img/ProyectoMovilLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.davincinacho.proyectofrontendmovil"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f78aad8-4ff4-466a-b3f8-3a1a636f024e"
+      }
+    }
+  }
+}
